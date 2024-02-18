@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    letter-spacing: 1px;
+}
+
+
+.main-screen {
+    display: flex;
+    width: 100%;
+}
+
+.components-items {
+    margin  : 1rem;
+    border: 2.2px solid rgb(189, 187, 187);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.text-options {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    margin-bottom: -5px;
+    /* padding: 0rem; */
+}
+
+.form-component {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.bold {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.text-body {
+    width: 100%;
+}
+
+.draggable {
+    cursor: move;
+}
+
+.draggable.dragging {
+    opacity: 0.5;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 0.5rem;
+    color: rgb(189, 187, 187);
+    height: 100%;
+    border-radius: 5px;
+    border: 2.2px solid rgb(189, 187, 187);
+}
+
+svg {
+    width: 12px;
+    color: grey;
+}
+
+svg:hover {
+    cursor: pointer;
+}
+
+select {
+    width: 104%;
+    color: rgb(189, 187, 187);
+    padding: 0.5rem;
+    height: 130%;
+    border-radius: 5px;
+    border: 2.2px solid rgb(189, 187, 187);
+}
+
+#components {
+    width: 20%;
+    height: 90%;
+}
+
+#form-container {
+    width: 90%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 3rem 0  ;
+}
+
+#form {
+    /* margin:  */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#logo {
+    margin: 1rem 2rem;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+#save-btn {
+    margin: 1rem 2rem;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+#options-box {
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+    border: 2.2px solid rgb(189, 187, 187);
+    height: 40rem;
+}
+
+#components-heading {
+    border-left: 2.2px solid rgb(189, 187, 187);
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    height: 10%;
+}
+
+#navbar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2.2px solid rgb(189, 187, 187);
+}
